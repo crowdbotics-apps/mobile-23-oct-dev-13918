@@ -31,7 +31,7 @@ export default class Blank extends React.Component {
         value={50}
         minimumValue={0}
         maximumValue={100}
-        maximumTrackTintColor="#41bc38"
+        maximumTrackTintColor="#090b09"
         minimumTrackTintColor="#ff33a0"
         thumbTintColor="#232a3e"
         style={styles.Slider_2}
@@ -45,6 +45,9 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
-  Slider_2: { width: "100%" }
+  Slider_2: { width: "100%" },
+  View_1: {},
+  Slider_2: { width: "100%", height: 50 }
 })
