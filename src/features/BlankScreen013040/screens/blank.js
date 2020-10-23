@@ -28,7 +28,7 @@ export default class Blank extends React.Component {
   render = () => (
     <View>
       <Text style={styles.Text_2}>
-        Sample text content jhgjhgjhgfhjgjfhgjjgjg hgjhgfjhgjhgjhg
+        Sample text content jhgjhgjhgfhjgjfhgjjgjg hgjhgfjhgjhgjhg nhghjhjgj jgjhgj hjgjgjhgjhb jhgjhgj ghfgf hgfhgf
       </Text>
       <Button
         title="Press me!"
