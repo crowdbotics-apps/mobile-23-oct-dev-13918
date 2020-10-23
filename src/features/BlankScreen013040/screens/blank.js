@@ -27,7 +27,9 @@ export default class Blank extends React.Component {
 
   render = () => (
     <View>
-      <Text>Sample text content</Text>
+      <Text style={styles.Text_2}>
+        Sample text content jhgjhgjhgfhjgjfhgjjgjg hgjhgfjhgjhgjhg
+      </Text>
       <Button
         title="Press me!"
         color="#33ff4b"
@@ -52,8 +54,13 @@ const styles = StyleSheet.create({
     flex: 1,
     marginHorizontal: 16
   },
+
   View_1: {},
   Text_2: {},
+  Button_3: { color: "#e42121" },
+  Slider_4: { width: "100%" },
+  View_1: {},
+  Text_2: { alignSelf: "center", color: "#e42121" },
   Button_3: { color: "#e42121" },
   Slider_4: { width: "100%" }
 })
